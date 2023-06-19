@@ -20,6 +20,7 @@ h5 {
 	font-size: 18px;
 	margin-left: 10px;
 }
+
 p {
 	font-family: var(--paragraph-font);
 	font-weight: normal;
@@ -27,6 +28,7 @@ p {
 	line-height: 28px;
 	font-size: 18px;
 	margin-left: 10px;
+	margin-top: 25px;
 }
 
 .paragraph::first-letter {
@@ -37,7 +39,6 @@ p {
 
 img {
 	width: 700px;
-	margin: 30px auto;
 }
 
 button {
@@ -59,6 +60,19 @@ button:hover {
 	cursor: pointer;
 }
 
+footer a {
+	color: black;
+	font-size: 16px;
+	font-family: var(--paragraph-font);
+	text-decoration: none;
+	transition: all 150ms ease-in-out;
+}
+
+footer a:hover {
+	color: #435174;
+	cursor: pointer;
+}
+
 
 @media (max-width: 900px) {
 	h1 {
@@ -69,6 +83,10 @@ button:hover {
 	p, h5{
 		text-align: center;
 		font-size: 15px;
+	}
+
+	img {
+		width: 300px;
 	}
 
 }
